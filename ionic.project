@@ -1,0 +1,12 @@
+{
+  "name": "tuto-grafikart-ionic-meteo",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

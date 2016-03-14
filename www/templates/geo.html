@@ -1,0 +1,19 @@
+<ion-view view-title="Géo Localisation">
+    <ion-nav-bar class="bar-positive">
+        <ion-nav-back-button></ion-nav-back-button>
+        <ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            <button class="button" ng-click="showTraject()"> Afficher trajet</button>
+            <button class="button" ng-click="hideTraject()"> Masquer traject</button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content scroll="false" class="padding">
+        <div class="padding">
+            <label class="item-floating-label">Time : {{position.timestamp | date:'HH:mm:ss'}}</label>
+            <label class="item-floating-label">Latitude : {{position.coords.latitude}}</label>
+            <label class="item-floating-label">Longitude : {{position.coords.longitude}}</label>
+        </div>
+        <div id="map" data-tap-disabled="true">
+        </div>
+    </ion-content>
+</ion-view>

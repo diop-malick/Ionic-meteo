@@ -1,0 +1,70 @@
+appli météo ionic
+
+avec saas
+
+========= http://openweathermap.org/
+magik-mike
+diop-malick@hotmail.fr
+aqwzsx123
+key : c8b9975f74ef8d9edf6f1222f374198c
+
++++++++++++++++++++
+
+appli mobile hybride : météo
+
+angular js, cordova, node.js, ionic
+
+API Rest fournie par Openweather.org
+
+==================== TODO
+
+Les éléments traités dans cette application sont:
+
+- Comment faire la géolocalisation
+- Comment gérer le stockage local dans le téléphone.
+- Comment tester l'application dans un browser classique
+- Comment générer l'application androïde
+- Comment compiler et générer l' APK pour androïde
+- Comment tester l'application androïde dans un émulateur
+- Comment tester l'application androïde dans le vrai téléphone
+
+
+partir de la date/heure  courante, 
+
+ajout parcours et autres : 
+https://openclassrooms.com/courses/google-maps-javascript-api-v3
+
+rename app : 
+http://www.saintsatplay.com/blog/2014/12/renaming-a-published-android-app-from-cordovaapp-to-your-apps-project-name#.VuXZifnhAdU
+
+=================== DONE
+
+- Installer et configurer l'environnement de développement
+- Créer un nouveau projet IONIC blank
+- Comment créer un side menu
+- comment créer un panneau à onglets
+- comment gérer les routes en utilisant Angular UI Router
+- Comment interagir avec un serveur en utilisant HTTP, JSON
+- Comment gérer les contrôleurs AngularJS
+- Comment créer les vues IONIC
+
+
+limiter le liens vers détail jours sur les 5 premeir jours , cars seules ces dernier ont leur détail jous de 3h
+
+AJOUT COURBE TEMP2RATURE SUR LA JOURN2E / http://openweathermap.org/city
+
+Using Cordova Geoloacation API with Google Maps : 
+
+====================
+geo
+mlkdp.sn@gmail.com
+google console develloper map api javascrip :
+myproject 
+nom clé : myGeoApp
+key : AIzaSyDO0fCkL-5BrcnVcJRyRr4u88SC4Qmzt8Y
+
+============================ link
+
+google map ionic  :
+http://www.joshmorony.com/part-3-advanced-google-maps-integration-with-ionic-and-remote-data/
+
